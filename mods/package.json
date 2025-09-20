@@ -1,0 +1,16 @@
+{
+  "name": "@reproall/mods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "userScript.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^3.26.2"
+  }
+}

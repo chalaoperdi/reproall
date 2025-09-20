@@ -1,0 +1,21 @@
+{
+  "name": "@chalaoperdi/reproall",
+  "appName": "ReproAll",
+  "version": "1.0.0",
+  "description": "A TizenBrew site modification for vidsrc.to.",
+  "packageType": "mods",
+  "websiteURL": "https://vidsrc.to/",
+  "main": "dist/userScript.js",
+  "serviceFile": "dist/service.js",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
+  ],
+  "license": "MIT"
+}
