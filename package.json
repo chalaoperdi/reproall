@@ -1,11 +1,31 @@
 {
   "name": "@chalaoperdi/reproall",
-  "appName": "ReproAll",
   "version": "1.0.0",
   "description": "A TizenBrew site modification for vidsrc.to.",
+  "keywords": [
+    "tizen",
+    "tizen-os",
+    "reproall",
+    "chalaoperdi"
+  ],
+  "homepage": "https://github.com/chalaoperdi/reproall#readme",
+  "bugs": {
+    "url": "https://github.com/chalaoperdi/reproall/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalaoperdi/reproall.git"
+  },
+  "license": "MIT",
+  "author": "chalaoperdi",
+  "type": "module",
+  "main": "dist/userScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "appName": "ReproAll",
   "packageType": "mods",
   "websiteURL": "https://vidsrc.to/",
-  "main": "dist/userScript.js",
   "serviceFile": "dist/service.js",
   "keys": [
     "MediaPlayPause",
@@ -16,6 +36,5 @@
     "MediaRewind",
     "MediaTrackNext",
     "MediaTrackPrevious"
-  ],
-  "license": "MIT"
+  ]
 }
